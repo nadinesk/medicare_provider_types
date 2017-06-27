@@ -26,6 +26,8 @@ I used the [`bigrquery`](https://github.com/rstats-db/bigrquery) R library to pu
 
 ### Notes
 
-Comparing Medicare beneficiary counts by provider type, and any changes from 2012 to 2014.
+Comparing Medicare beneficiary counts, and percentage of state population, by provider type, and any changes from 2012 to 2014.
 Top provider type for each state, for each year from 2012 to 2014
-Top provider types by Medicare beneficiary type for
+Most frequent provider types across the states
+
+https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=PEP_2016_PEPANNRES&prodType=table
