@@ -37,12 +37,12 @@ ORDER BY 1,3 DESC
 "
 
 
-p1 <- query_exec(provider_benef_2014, project = '78537109822')
+p1 <- query_exec(provider_benef_2014, project = PROJECT_ID)
 
 tbl_df(p1)
 
-p2013 <- query_exec(provider_benef_2013, project = '78537109822')
-p2012 <- query_exec(provider_benef_2012, project = '78537109822')
+p2013 <- query_exec(provider_benef_2013, project = PROJECT_ID)
+p2012 <- query_exec(provider_benef_2012, project = PROJECT_ID)
 
 
 # Top Beneficiary Count by Provider Type per State
